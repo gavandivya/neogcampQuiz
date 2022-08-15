@@ -1,89 +1,6 @@
 var readlineSync = require('readline-sync');
 var chalk = require('chalk');
 
-
-// var readlineSync = require('readline-sync');
-// var userName = readlineSync.question('May I have your name? ');
-// console.log("Welcome "+userName)
-
-
-// var score = 0;
-// var readlineSync = require('readline-sync');
-// var age = readlineSync.question("Am I older than 25 ?")
-// anwser = "yes"
-// if (age === anwser) {
-//   console.log("Right");
-//   score = score + 1;
-//   console.info("Score is:" + score)
-// }
-// else {
-
-//   console.log("Wrong");
-//   score = score - 1;
-//   console.info("Score is:" + score)
-// }
-
-
-// function add(num1, num2) {
-//   var output = num1 + num2;
-//   return output;
-// }
-
-// console.log("Result - " + add(2, 3));
-// add(2,3);
-// for( var i = 0; i<5; i++){
-//   for(var j = i; j<5;j++){
-//   console.log("*");
-//   }
-// }
-// var string = "";
-// for (var i = 0; i < 5; i++) {
-//   string += "\n";
-//   for (var j = 0; j <= i; j++) {
-//     string += "*";
-//   }
-// }
-// console.log(string);
-
-
-// var number = 22;
-// for (var i = 1; i < 11; i++) {
-//   console.info(i * number);
-// }
-
-
-// var arrayName = ["valueOne", "valueTwo", "valueThree"];
-// var arrayName = [valueOne, valueTwo, valueThree];
-// console.log(arrayName[0])
-// arrayName.map((x) => {
-//   console.info(x);
-// })
-
-// var batman = {
-//   name: "batman",
-//   power: "flight",
-//   costume: "blue",
-//   strength: 100000,
-//   stealth: 0,
-//   intelligence: 100,
-// }
-
-// var superman = {
-//   name: "superman",
-//   power: "martial arts",
-//   costume: "black",
-//   strength: 1000,
-//   stealth: 100,
-//   intelligence: 100,
-// }
-
-
-// var superHero = [batman, superman]
-
-// for (let i = 0; i < superHero.length; i++) {
-//   console.info(superHero[i].name+" "+superHero[i].costume);
-//   console.log("--------------------")
-// }
 const right = chalk.green.bold;
 const wrong = chalk.red.bold;
 let score = 0;
@@ -144,3 +61,92 @@ function play(i, ques, ans) {
   } console.info("Score - " + score + "\r\n");
 }
 
+
+
+
+
+//Extra trail code
+
+
+/* var readlineSync = require('readline-sync');
+var userName = readlineSync.question('May I have your name? ');
+console.log("Welcome "+userName)
+
+
+var score = 0;
+var readlineSync = require('readline-sync');
+var age = readlineSync.question("Am I older than 25 ?")
+anwser = "yes"
+if (age === anwser) {
+  console.log("Right");
+  score = score + 1;
+  console.info("Score is:" + score)
+}
+else {
+
+  console.log("Wrong");
+  score = score - 1;
+  console.info("Score is:" + score)
+}
+
+
+function add(num1, num2) {
+  var output = num1 + num2;
+  return output;
+}
+
+console.log("Result - " + add(2, 3));
+add(2,3);
+for( var i = 0; i<5; i++){
+  for(var j = i; j<5;j++){
+  console.log("*");
+  }
+}
+var string = "";
+for (var i = 0; i < 5; i++) {
+  string += "\n";
+  for (var j = 0; j <= i; j++) {
+    string += "*";
+  }
+}
+console.log(string);
+
+
+var number = 22;
+for (var i = 1; i < 11; i++) {
+  console.info(i * number);
+}
+
+
+var arrayName = ["valueOne", "valueTwo", "valueThree"];
+var arrayName = [valueOne, valueTwo, valueThree];
+console.log(arrayName[0])
+arrayName.map((x) => {
+  console.info(x);
+})
+
+var batman = {
+  name: "batman",
+  power: "flight",
+  costume: "blue",
+  strength: 100000,
+  stealth: 0,
+  intelligence: 100,
+}
+
+var superman = {
+  name: "superman",
+  power: "martial arts",
+  costume: "black",
+  strength: 1000,
+  stealth: 100,
+  intelligence: 100,
+}
+
+
+var superHero = [batman, superman]
+
+for (let i = 0; i < superHero.length; i++) {
+  console.info(superHero[i].name+" "+superHero[i].costume);
+  console.log("--------------------")
+}*/
