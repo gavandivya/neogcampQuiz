@@ -25,6 +25,6 @@ After answering all 5 question the final score is displayed with all the other h
 ![quiz](https://github.com/gavandivya/neogCampPortfolio/raw/main/images/quiz.png)
 
 
-Give a ⭐️ if you found this repository useful!
+Give a 🌟 if you found this repository useful!
 
-Made with ❤️ by Divya Gavandi
+Made with ❤ by Divya Gavandi
